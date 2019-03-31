@@ -1,0 +1,59 @@
+Extending TensorFlow
+------------------------------
+
+input layers = tensorflow placeholder -- tf.placeholder
+
+Important question:
+------------------------------
+Why we need non-linearity after linear model?
+
+For stacking we need non-linearity because it is not possible with linear model alone.
+To solve more complex problem, non-linearity is required.
+
+Best Explaination: In order to have deep nets and find the complex relationships through arbitrary functions, we need non-linearity.
+
+Activation Functions (tranfer functions)
+------------------------------
+
+Activation functions is the way to create non-linearity.
+
+Example are:
+1.Sigmoidal--parabolic (0,1)
+2.TanH --hyperbolic(-1,1)
+3.Relu -- rectified linear unit (0,infinity)
+4.softmax (0,1) -- transform into probability distribution
+
+Important note: Softmax function is often used as the activation function of the output layer in the classification problems. 
+
+Overfitting and Underfitting
+------------------------------
+
+Good model is somewhere between underfitting and overfitting.
+Overfitting is "missing the point"
+Underfitting is "unable to understand the logic of the data"
+
+Validation
+-----------------------------
+
+We have three subset for data.
+1.Training
+2.Validation
+3.Test
+
+Validation data is extracted from the same dataset.
+Validation is applied with forward propagation.
+When the validation loss is started to increase, then we have to stop our model. -- that's the sign for overfitting. 
+
+Train 		|		Validation 		|			Test
+-------------------------------------------------------
+ 80%					10%						10%
+ 70%					20%						10%
+ 
+N-fold Cross Validation
+--------------------------------
+when the dataset is small, we will combine the data in training.
+For eacch epoch, it become the n set of data.
+Example: 10 epoch -- in 1st epoch-- 1st dataset become the validation data -- in 2nd epoch-- 2nd dataset become the validation data and so on.
+
+Initialization of the weights
+---------------------------------

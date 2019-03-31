@@ -1,0 +1,26 @@
+Machine Learning and Deep Learning
+----------------------------------------------
+
+Four main ingredient for training:
+1.Data
+2.Model -- most common linear modal (basis of complex structure)
+3.Objective Function -- how well the modal works incontrast with the target value
+	3.1 Loss function   -- less the loss function, the accuracy is better 	-- used in supervised learning.
+	3.2 Reward function -- opposite of the loss fucntion 					-- used in reinforcement learning.
+4.Optimization Algorithm -- gradient descent 	 
+
+Machine Learning types:
+1.Supervised
+	1.1 Regression     -- common loss function is L2-norm 		-- the output of the function is the number. (continuous)
+	1.2 Classification -- common loss function is cross-entropy.
+2.Unsupervised
+3.Reinforcement
+
+Linear Model Eqaution
+-----------------------------------------------
+
+y = wx+b  (w=weight,b=bias)
+
+Every modal depends on the weights and the bias.
+
+

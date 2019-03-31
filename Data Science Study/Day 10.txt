@@ -1,0 +1,43 @@
+Stochastic gradient descent
+-----------------------------------------
+
+This is same as gradient descent but it is bit faster as it works in batches.
+It update the weights on every m-batches.
+
+Momentum
+------------------------------------------
+
+We can add momentum to reach the desired result in gradient descent.
+
+Learning rate schedule
+-------------------------------------------
+
+AdaGrad -- adaptive gradient algorithm
+RMSprop -- Root mean square propagation
+
+Combining the above method is :- Adam (adaptive moment estimation)
+
+Preprocessing
+--------------------------------------------
+
+Manipulation of dataset before applying it to the model.
+-->> Compatibilty
+-->> Order of magnitude
+-->> Generalization
+
+Logrithms -- basic preprocessing.
+
+Standardization
+---------------------------------------------
+
+The process of transforming data into standard scale.
+It is also known as feature scaling.
+PCA is another method which is used in placement of Standardization. (Principle component analysis)
+
+Preprocessing categorical data
+---------------------------------------------
+
+Methods are:
+
+1.One-hot encoding   -- few categories
+2.Binary encoding    -- many categories

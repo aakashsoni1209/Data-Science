@@ -1,0 +1,43 @@
+Seaborn library for data visualization
+-----------------------------------------
+
+import seaborn as sns
+sns.set() -->> This method will override the matplotlib library method for better visualization.
+
+ANOVA
+------------------------------------------
+
+Three concept are important :
+
+1. Sum of square Total (SST)       
+2. Sum of square Regression (SSR)
+3. Sum of square Error (SSE)
+
+SST = SSR + SSE
+
+Total variability = Explained Variability + Unexplained Variability
+Lowering the value of SSE will increase the modal fitability.
+
+OLS
+-------------------------------------------
+
+It stands for ordinary least square
+The purpose of the function/method is to draw a regression line which is at least distance from all the data points. 
+Other method are also present out there such as gaussian/kernel/bayseain regression.
+
+R-squared
+-------------------------------------------
+
+The more relevant factor you include in your regression,the better the modal become which result in better R-squared value.
+R-squared is the parameter, that determine the modal explanation in terms of factor involved.
+
+Multiple linear Regression modal
+-------------------------------------------
+
+one dependant and multi-independant variable.
+Its not about best fitting line, it's about best fitting modal.
+
+y = b0 + b1*x1 + b2*x2 + ........ + b(k)*x(k)
+
+
+ 

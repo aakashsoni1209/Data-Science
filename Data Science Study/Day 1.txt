@@ -1,0 +1,48 @@
+Regression Analysis
+
+1.Linear Regression Model (Simple)
+------------------------------------
+
+-->> Y = b0 + b1*x + e
+
+Y @ the varaible that needs to be predicted. (Dependant varaible)
+b0 @ constant
+b1 @ quantify the amount of Y by x times.
+x @ predictor (Independant varaible)
+e @ error (error between the predicted one and actual one) -->> on average this value is 0.
+
+Example : 
+
+Y -->> Income 
+x -->> Education
+
+The more education you have, the more income you get.
+In USA, b1 becomes 5000 for each additional education (x).
+
+As geek symbols are there, which means the above equation is Population one.
+
+-->> y = b0 + b1*x (sample eqaution.)
+
+2. Regression and Correlation
+-------------------------------------
+
+Regression is about casuality between the value.
+Correlation is about relationship between the varaible.
+
+Regression eqaution -- interchange the varaible in equation affect the whole equation.
+Correlation eqaution --  interchange the varaible in equation does not affect the whole equation.
+
+Regression is about best fitting line in the graph.
+Correlation is a single point.
+
+3. Essential library used
+-------------------------------------
+
+Numpy -->> for manipulation of large data (Example -- ndimensional array)
+Pandas -->> For manipulation of the dataset provided.
+scipy -->> Scientific method inside the python ecosystem.
+statsmodal -->> For statistical representation of the dataset.
+matplotlib -->> For 2D modelling of the insight/results found.
+seaborn -->> build on top of matplotlib. For more modelling other than basic one provided for visualization.
+sklearn -->> Machine learning library. (scikit-learn)
+

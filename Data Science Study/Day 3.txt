@@ -1,0 +1,23 @@
+F-statistic
+--------------------------------------------
+
+This tells us the significance of the model.
+
+OLS Assumption/Regression Assumption
+--------------------------------------------
+
+1. Linearity
+2. No endogeneity
+3. Normality and homoscedasticity
+4. No Autocorrelation
+5. No multicollinearity
+
+Linearity
+--------------------------------------------
+
+If the straight line doesn't fit the data point, we should transform the relation.
+
+No endogeneity
+--------------------------------------------
+
+Look for ommitted variable in the sample data used for analysis.

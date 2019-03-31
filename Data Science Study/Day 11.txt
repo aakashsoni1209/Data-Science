@@ -1,0 +1,22 @@
+MNIST dataset (HandWritten Digit)
+-------------------------------------
+
+It is called as the "Hello world" of the machine learning.
+
+Action plan for the MNIST Problem
+------------------------------------
+
+1. Outline the model and choose the activation function.
+2. Describe the placeholder, variable and other operation.
+3. Choose the advanced optimizer.
+4. Split the dataset.
+5. Initialize the variable.
+6. Make it learn.
+7. Test the accuracy of the model.
+
+Pre Process the dataset
+--------------------------------
+
+1.Balance the dataset
+2.Divide the dataset into three parts: training, validation and test -- to prevent overfitting. 
+3.Covert the dataset into tensor friendly environment.

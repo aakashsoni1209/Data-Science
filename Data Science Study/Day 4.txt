@@ -1,0 +1,19 @@
+Normality and homoscedasticity
+------------------------------------------------------
+
+Three terms corresponding to that:
+
+1. Normality        -- Normal distribution
+2. Zero Mean
+3. homoscedasticity -- Equal Variance
+
+No Autocorrelation
+------------------------------------------------------
+
+No serial correlation
+There is no remedy for the prevention.
+
+No multicollinearity
+------------------------------------------------------
+
+Find out the collinearity between the two independant variable.

@@ -1,0 +1,13 @@
+Learning Rate
+-------------------------------------------------
+
+The lower the learning rate, the higher the iteration we have to perform.
+
+Tensorflow
+------------------------------------------------
+
+Scaler -- tensor with degree 0
+Vector -- tensor with degree 1
+Matrics -- tensor with degree 2
+
+Tensorflow is best for neural network while sklearn is better for preprocessing.

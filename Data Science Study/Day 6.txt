@@ -1,0 +1,46 @@
+Clustering type
+---------------------------------------
+
+There are two type of clustering:
+
+1. Flat (KMean)
+2. Hierarical  
+
+Hierarical is further divided into :
+
+1. Bottom-up
+2. Top-Down
+
+Vector --1 Dimension
+--------------------------------------
+
+Example:
+
+[1,2,4]
+
+[1]
+[3]
+[4]
+
+Tensors
+--------------------------------------
+
+Colleaction of Matrics
+
+dimensions: {2,2,3}
+
+Addition Error with Matrics
+---------------------------------------
+
+we cannot add matrics with different shape.
+but we can add matrics with scalar in which each element is added by the scalar value.
+
+Transpose -- Array.T  -- in python
+dot product -- Array.dot(x,y)
+
+Application of Linear Algebra in Data Science
+-------------------------------------------------
+
+1. Vectorized Code             ---- Array Programmming; it is much faster. 
+2. Image Reccognition
+3. Dimensionality Reduction

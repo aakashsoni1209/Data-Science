@@ -1,0 +1,80 @@
+Logistic Regression
+--------------------------------------------------
+
+Sometimes the problem we see are not as linear.
+Regression are base for some of the modal.
+Logistic Regression correspond to problem with 1 or 0 , yes or no, will buy or don't buy
+
+Linear Regression line won't fit to the base for the logistic Regression
+--------------------------------------------------------------------------
+
+Since it is either 0 or 1, so it can't be predicted with linear regrssion line.
+It's voilates the first assumption of linear regression i.e., Linearity
+For this modal, we will be using logit modal and it's equation is very similar to what we have for linear regression.
+
+In Logistic Regression, we sometimes use log/exponential function which is quite useful.
+
+Overfitting and Underfitting
+---------------------------------------------------
+
+Overfitting means having modal high accuracy but have missed the point.
+Underfitting means the modal is not having good accuracy.
+
+Underfitting is easier to find as its having low accuracy, on the other day Overfitting are mucch harder to figure out.
+
+CLustered Analysis
+--------------------------------------------------
+
+CLustered Analysis is the way of grouping the data based on the feature.
+The main goal of CLustered Analysis is to find the similarity and dissimilarity between the different clustered.
+
+The main implementation of clustering is on Market Segmentation, Image Segmentation. 
+
+Classification (More of a supervised Learning having labelled data)
+---------------------------------------------------
+
+Predicting an output data, given input data. 
+
+Mathematical Prerequisite for Clustered Analysis
+-----------------------------------------------------
+
+1.Elucidian distance -- the distance between the two point in the space. (2,3,n dimension)
+2.Centroid -- Center point between the two points.
+
+K-Means Clustering
+-----------------------------------------------------
+
+K-Means Clustering is the most popular method of clustered analysis.
+
+This include 4 steps:
+
+1. Choose the number of cluster (that's why it is called k-means k is the number for cluster)
+2. Specify the cluster seed -- based on some calculation put the point on the graph which later becomes centroid
+3. Assign each point to the centroid.
+4. Adjust the centroid.
+
+K-Means 
+-----------------------------------------------------
+
+When using 2 features,we are in puzzle for that because it is getting ddifficult to show in graphs.
+What do to??
+
+WCSS -- Within cluster sum of squares is the parameter that should be kept in mind, it will tell how many cluster is essential for the analysis.
+WCSS forms Elbow structure.
+
+Pros and Cons
+--------------------------------------------------
+
+Pros: 
+1.Easy to implement
+2.Simple to understand
+3.Widely available	
+4.Fast to cluster
+5.Always yield a result *
+
+Cons with Remedies:
+1.We need to pick K 				---------- The Elbow method
+2.Sensitive to initialization 		---------- k-means++
+3.Sensitive to Outliers 			---------- Remove Outliers
+4.Produces spherical solutions
+5.Standardrization
